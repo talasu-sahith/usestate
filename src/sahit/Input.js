@@ -13,7 +13,8 @@ const Input = ()=>{
         if(value!=""){
         setArrnames([...arrnames,{id: nanoid(),pass: value}])
         // setArrnames([...arrnames, value].sort((a, b) => a - b ))
-        setValue("")}
+        // setValue("")
+        }
         else return
     }
 
